@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Arithmetic Operations</title>
+    
+    <style>
+      .box {
+        width: 250px;
+        padding: 15px;
+        border: 2px solid black;
+        margin: 10px;
+        display: inline-block;
+        background: #f4f4f4;
+        text-align: center;
+      }
+      img {
+        width: 120px;
+        height: 120px;
+      }
+      button {
+        margin: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Example of arithmetic operations</h1>
+
+    <div id="addition" class="box">
+      <p id="plus"> Add </p>
+     <button type="button" onclick="displayAdd()">Add</button>
+    </div>
+    
+    
+    <div id="minus" class="box">
+    <p id = "sub"> Subtract </p> 
+    <button class="btn" onclick="displaySubtract()"> Subtract </button>       
+    </div>
+
+    <div id="product" class="box">
+    <p id = "cross"> Multiple </p> 
+    <button class="btn" onclick="displayMultiplication()"> Multiple </button>       
+    </div>
+    
+    <div id="division" class="box">
+    <p id = "slash"> Divide </p> 
+    <button class="btn" onclick="displayDivision()"> Divide </button>       
+    </div>
+
+    <div id="container10" class="box">
+    <p id = "con"> Control </p> 
+    <button class="btn" onclick="displayIfElse()"> Control </button>       
+    </div>
+    
+
+    
+
+
+
+    <script>
+      function changeText(Id){
+        document.getElementById("text5").innerHTML = "Total Sum";
+      }
+   
+      function changeText(Id){
+        document.getElementById("text7").innerHTML = "Subtract";
+      }
+      function changeText(Id){
+        document.getElementById("text8").innerHTML = "Multiply";
+      }
+      function changeText(Id){
+        document.getElementById("text9").innerHTML = "Divisions";
+      }
+      function changeText(Id){
+        document.getElementById("text10").innerHTML = "Control";
+      }
+
+    </script>
+  </body>
+
+  <script src="operation.js"></script>
+
+</html>
